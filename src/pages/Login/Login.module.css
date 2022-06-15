@@ -12,6 +12,10 @@
     background: #f1f1f1;
 }
 
+input[type=password]:invalid{
+    border: solid 2px red;
+}
+
 .input:focus {
     background-color: #ddd;
     outline: none;
@@ -34,15 +38,12 @@ hr {
     border-radius: 6px;
 }
 
-.registerbtn:hover {
+.register_btn:hover {
     opacity: 1;
-}
-
-a {
-    color: dodgerblue;
 }
 
 .sign_in {
     background-color: #f1f1f1;
     text-align: center;
 }
+
